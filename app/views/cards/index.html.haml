@@ -1,0 +1,13 @@
+- title "Cards"
+
+%table
+  %tr
+    %th Text
+  - for card in @cards
+    %tr
+      %td= h card.text
+      %td= link_to 'Show', card
+      %td= link_to 'Edit', edit_card_path(card)
+      %td= link_to 'Destroy', card, :confirm => 'Are you sure?', :method => :delete
+
+%p= link_to "New Card", new_card_path

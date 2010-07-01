@@ -1,0 +1,12 @@
+- title "Card"
+
+%p
+  %strong Text:
+  =h @card.text
+
+%p
+  = link_to "Edit", edit_card_path(@card)
+  |
+  = link_to "Destroy", @card, :confirm => 'Are you sure?', :method => :delete
+  |
+  = link_to "View All", cards_path

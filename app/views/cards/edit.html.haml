@@ -1,0 +1,8 @@
+- title "Edit Card"
+
+= render :partial => 'form', :locals => { :button_text => 'Update' }
+
+%p
+  = link_to "Show", card_path(@card)
+  |
+  = link_to "View All", cards_path
