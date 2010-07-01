@@ -1,0 +1,10 @@
+.DS_Store
+log/*
+tmp/*
+tmp/**/*
+doc/api
+doc/app
+coverage
+db/development_structure.sql
+db/*.sqlite3
+coverage.data
