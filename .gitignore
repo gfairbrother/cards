@@ -8,3 +8,4 @@ coverage
 db/development_structure.sql
 db/*.sqlite3
 coverage.data
+rerun.txt
